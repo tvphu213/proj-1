@@ -31,3 +31,6 @@ Professional coaches who can consult and develop training programs for their ath
 https://docs.python.org/3/library/venv.html
 ## install library
 pip install -R requirements.txt 
+
+# static website for this project
+http://for-learning-udacity-phutv.s3-website-ap-northeast-1.amazonaws.com/
