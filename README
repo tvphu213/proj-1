@@ -10,12 +10,12 @@ Professional coaches who can consult and develop training programs for their ath
 - Average age of those 5 sports based on medalists
 - Average BMI per sport based on 2 groups of medalists and non-medalists
 - What are the strengths of each of the above sport according to the top 10 countries with the most medals?
-- Top 20 athletes with the most medals in history and medal distribution.
+- Top 10 athletes with the most medals in history and medal distribution.
 - Youngest/oldest athlete ever to win an Olympic medal.
 
 # Hypothesis
-The age group from 18 to 25 has almost the same number of medals as the total number of medals of all other age groups
-Body Mass Index Affects Athletes' Performance
+1. The age group from 18 to 25 has almost the same number of medals as the total number of medals of all other age groups
+2. Body Mass Index Affects Athletes' Performance
 
 # Approach
 ## Hypothesis 1:
