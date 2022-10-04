@@ -24,13 +24,18 @@ Hypothesis
 http://for-learning-udacity-phutv.s3-website-ap-northeast-1.amazonaws.com/
 
 # File Description
-analysis.ipynb -- 
+analysis.ipynb -- notebook contain data analysis
+
 for_blog.ipynb -- Jupyter notebook file which clear all code to prepare extract to html format file
+
 for_blog.html -- file for blog which will be hosted on amazon S3 at
+
 http://for-learning-udacity-phutv.s3-website-ap-northeast-1.amazonaws.com/
 
 data/athlete_events.csv -- data contain athelte informations and their records
+
 data/noc_regions.csv -- data cotain Olympic host site/city infomation
+
 image/* -- image use for blog
 
 # Datasource
