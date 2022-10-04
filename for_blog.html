@@ -14598,28 +14598,20 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <li>Local news sites who can then aggregate and provide new perspectives and analysis for readers.</li>
 <li>Professional coaches who can consult and develop training programs for their athletes.</li>
 </ul>
-<h4 id="Dataset-URL">Dataset URL<a class="anchor-link" href="#Dataset-URL">&#182;</a></h4><p>https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results</p>
-<h4 id="1.-Questions-we-will-find-in-this-project?">1. Questions we will find in this project?<a class="anchor-link" href="#1.-Questions-we-will-find-in-this-project?">&#182;</a></h4><ul>
+<h4 id="Dataset-URL">Dataset <a href="https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results">URL</a><a class="anchor-link" href="#Dataset-URL">&#182;</a></h4><h4 id="We-will-analysis-to-answer-7-questions-and-2-hypothesis">We will analysis to answer 7 questions and 2 hypothesis<a class="anchor-link" href="#We-will-analysis-to-answer-7-questions-and-2-hypothesis">&#182;</a></h4><ol>
 <li>Top 5 country got the most medals.</li>
 <li>Top 10 sports that bring the most medals.</li>
+<li>Ratio of male and female athletes participating in the olympics over the years</li>
 <li>Average age of those 5 sports based on medalists</li>
-<li>What are the strengths of each of the above sport according to the top 10 countries with the most medals?</li>
-<li>Top 10 athletes with the most medals in history and medal distribution.</li>
 <li>Youngest/oldest athlete ever to win an Olympic medal.</li>
-<li>Average BMI of the 2 groups of athletes (with and without medals) by year.</li>
-</ul>
-<h4 id="2.-Hypothesis">2. Hypothesis<a class="anchor-link" href="#2.-Hypothesis">&#182;</a></h4><ol>
+<li>Top 10 athletes with the most medals in history and medal distribution.</li>
+<li>What are the strengths of each of the above sport according to the top 10 countries with the most medals?</li>
+</ol>
+<p>Hypothesis</p>
+<ol>
 <li>The age group from 18 to 25 has almost the same number of medals as the total number of medals of all other age groups</li>
 <li>Body Mass Index Affects Athletes' Performance</li>
 </ol>
-<h4 id="3.-Approach">3. Approach<a class="anchor-link" href="#3.-Approach">&#182;</a></h4><h5 id="Hypothesis-1:">Hypothesis 1:<a class="anchor-link" href="#Hypothesis-1:">&#182;</a></h5><ul>
-<li>Delete rows with null age data.</li>
-<li>Calculate the total number of medals of the age group 18 to 25 and the total number of medals of the remaining age groups. Compare the numbers and percentages between the two groups.</li>
-</ul>
-<h5 id="Hypothesis-2:">Hypothesis 2:<a class="anchor-link" href="#Hypothesis-2:">&#182;</a></h5><ul>
-<li>Calculate the BMI of all athletes, insert BMI field to dataframe.</li>
-<li>Compare the average BMI across the group of athletes with and without medals according to the content of the competition, find out the difference between the 2 groups and the pattern of success if any</li>
-</ul>
 
 </div>
 </div>
@@ -14643,7 +14635,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="1.-Data-import-and-preprocess">1. Data import and preprocess<a class="anchor-link" href="#1.-Data-import-and-preprocess">&#182;</a></h4>
+<h3 id="1.-Data-understanding">1. Data understanding<a class="anchor-link" href="#1.-Data-understanding">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -14689,7 +14681,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Top-5-countries-by-total-Medals">Top 5 countries by total Medals<a class="anchor-link" href="#Top-5-countries-by-total-Medals">&#182;</a></h4>
+<h4 id="Question-1:-Top-5-countries-by-total-Medals">Question 1: Top 5 countries by total Medals<a class="anchor-link" href="#Question-1:-Top-5-countries-by-total-Medals">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -14724,7 +14716,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Top-10-medal-sports-over-years-insight">Top 10 medal sports over years insight<a class="anchor-link" href="#Top-10-medal-sports-over-years-insight">&#182;</a></h4>
+<h4 id="Question-2:-Top-10-medal-sports-over-years-insight">Question 2: Top 10 medal sports over years insight<a class="anchor-link" href="#Question-2:-Top-10-medal-sports-over-years-insight">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -14809,7 +14801,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Ratio-of-male-and-female-athletes-participating-in-the-olympics-over-the-years">Ratio of male and female athletes participating in the olympics over the years<a class="anchor-link" href="#Ratio-of-male-and-female-athletes-participating-in-the-olympics-over-the-years">&#182;</a></h4>
+<h4 id="Question-3:-Ratio-of-male-and-female-athletes-participating-in-the-olympics-over-the-years">Question 3: Ratio of male and female athletes participating in the olympics over the years<a class="anchor-link" href="#Question-3:-Ratio-of-male-and-female-athletes-participating-in-the-olympics-over-the-years">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -14844,7 +14836,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Average-of-age-on-sports-which-have-the-most-medal">Average of age on sports which have the most medal<a class="anchor-link" href="#Average-of-age-on-sports-which-have-the-most-medal">&#182;</a></h4>
+<h4 id="Question-4:-Average-of-age-on-sports-which-have-the-most-medal">Question 4: Average of age on sports which have the most medal<a class="anchor-link" href="#Question-4:-Average-of-age-on-sports-which-have-the-most-medal">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -14879,7 +14871,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Youngest/oldest-athlete-ever-to-win-an-Olympic-medal">Youngest/oldest athlete ever to win an Olympic medal<a class="anchor-link" href="#Youngest/oldest-athlete-ever-to-win-an-Olympic-medal">&#182;</a></h4>
+<h4 id="Question-5:-Youngest/oldest-athlete-ever-to-win-an-Olympic-medal">Question 5: Youngest/oldest athlete ever to win an Olympic medal<a class="anchor-link" href="#Question-5:-Youngest/oldest-athlete-ever-to-win-an-Olympic-medal">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -14950,7 +14942,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Top-10-athletes-with-the-most-medals-in-history.">Top 10 athletes with the most medals in history.<a class="anchor-link" href="#Top-10-athletes-with-the-most-medals-in-history.">&#182;</a></h4>
+<h4 id="Question-6-1:-Top-10-athletes-with-the-most-medals-in-history.">Question 6-1: Top 10 athletes with the most medals in history.<a class="anchor-link" href="#Question-6-1:-Top-10-athletes-with-the-most-medals-in-history.">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -14997,7 +14989,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Medals-Distribution-Of-Top-10-greatest-Athletes.">Medals Distribution Of Top 10 greatest Athletes.<a class="anchor-link" href="#Medals-Distribution-Of-Top-10-greatest-Athletes.">&#182;</a></h4>
+<h4 id="Question-6-2:-Medals-Distribution-Of-Top-10-greatest-Athletes.">Question 6-2: Medals Distribution Of Top 10 greatest Athletes.<a class="anchor-link" href="#Question-6-2:-Medals-Distribution-Of-Top-10-greatest-Athletes.">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -15020,7 +15012,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="The-strengths-of-each-of-the-above-sport-according-to-the-top-10-countries-with-the-most-medals">The strengths of each of the above sport according to the top 10 countries with the most medals<a class="anchor-link" href="#The-strengths-of-each-of-the-above-sport-according-to-the-top-10-countries-with-the-most-medals">&#182;</a></h4>
+<h4 id="Question-7:-The-strengths-of-each-of-the-above-sport-according-to-the-top-10-countries-with-the-most-medals">Question 7: The strengths of each of the above sport according to the top 10 countries with the most medals<a class="anchor-link" href="#Question-7:-The-strengths-of-each-of-the-above-sport-according-to-the-top-10-countries-with-the-most-medals">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -15055,7 +15047,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="3.-Hypothesis">3. Hypothesis<a class="anchor-link" href="#3.-Hypothesis">&#182;</a></h4>
+<h4 id="Hypothesis">Hypothesis<a class="anchor-link" href="#Hypothesis">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -15186,6 +15178,26 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Despite the majority, the percentage of athletes with a healthy BMI who won medals was not higher than other BMI categories. Thus, it can be concluded that BMI does not have much effect on athletes' medal winning rate. So hypothesis 2 is wrong.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="What-next?">What next?<a class="anchor-link" href="#What-next?">&#182;</a></h4><p>We've answered some of the most commonly asked questions about Olympic records.</p>
+<p>Let's explore more interesting things together next time!</p>
+<p>For example questions</p>
+<ul>
+<li><p>Does the host country of the Olympics have a better record than the years not hosting?</p>
+</li>
+<li><p>Should investments be focused on women's or men's teams in certain sports for specific countries?</p>
+</li>
+</ul>
 
 </div>
 </div>
