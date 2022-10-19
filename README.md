@@ -49,4 +49,4 @@ image/* -- image use for blog
 ## create virtual environment and active it
 https://docs.python.org/3/library/venv.html
 ## install library
-pip install -R requirements.txt 
+pip install -r requirements.txt 
